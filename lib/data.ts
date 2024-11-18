@@ -113,3 +113,24 @@ export const skillsData = [
   "Django",
   "Framer Motion",
 ] as const;
+
+export const certificationsData = [
+  {
+    title: "Microsoft Power BI Data Analyst Associate",
+    issuer: "Microsoft",
+    date: "October 2024",
+  
+  },
+  {
+    title: "Databricks Lakehouse Fundamentals",
+    issuer: "Databricks",
+    date: "November 2024",
+  
+  },
+  {
+    title: "DP-203: Data Engineering on Microsoft Azure",
+    issuer: "Microsoft",
+    date: "September 2024",
+ 
+  },
+] as const;
