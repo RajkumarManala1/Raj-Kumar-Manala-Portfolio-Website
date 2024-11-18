@@ -12,6 +12,7 @@ export default function Project({
   description,
   tags,
   imageUrl,
+  githubLink, // Add githubLink prop
 }: ProjectProps) {
   const ref = useRef<HTMLDivElement>(null);
   const { scrollYProgress } = useScroll({
@@ -46,6 +47,17 @@ export default function Project({
               </li>
             ))}
           </ul>
+     {/* GitHub Link */}
+     {githubLink && (
+            <a
+              href={githubLink}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="mt-4 inline-block text-blue-500 hover:text-blue-700 text-sm"
+            >
+              View on GitHub
+            </a>
+          )}
         </div>
 
         <Image
