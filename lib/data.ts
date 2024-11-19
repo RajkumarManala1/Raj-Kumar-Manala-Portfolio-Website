@@ -46,15 +46,15 @@ export const experiencesData = [
     title: "Data Engineer",
     location: "Mindtree, Mumbai, India",
     description:
-      "I worked as a data engineer for 2 years, I upskilled and promoted as a Senior Data Engineer",
+      "At Mindtree, I specialized in designing and implementing end-to-end data engineering and analytics solutions, including ETL workflows with SSIS and Python, statistical analysis with SQL and Excel, and interactive data visualizations using Power BI and Databricks. Leveraging cloud platforms like Microsoft Azure and Big Data technologies, I built scalable pipelines, optimized real-time data processing with Databricks Streaming, and developed data marts with fact and dimension tables. My role involved collaborating with stakeholders to define requirements, ensuring data quality through rigorous cleansing and transformation, and delivering actionable insights that empowered strategic business decisions.",
     icon: React.createElement(CgWorkAlt),
     date: "2020 - 2022",
   },
   {
     title: "Senior Data Engineer",
-    location: "Mindtree LTD., Hyderabad, India",
+    location: "LTIMindtree LTD., Hyderabad, India",
     description:
-      "I worked as a front-end developer for 2 years in 1 job and 1 year in another job. I also upskilled to the full stack.",
+      "At LTIMindtree, I excelled in creating advanced data solutions, developing Power BI dashboards and reports by blending data from multiple sources to deliver critical business insights. I implemented scalable data warehousing solutions with Azure Synapse Analytics and optimized ELT pipelines using Azure Data Factory. Leveraging Power BI and Azure Databricks, I performed complex data modeling and transformations, ensuring high-quality, actionable intelligence. My expertise included developing and optimizing SQL scripts, creating advanced visualizations with DAX, and designing pipelines to move historical and incremental data from Oracle on-premises systems to Azure Data Lake Storage. Collaborating with cross-functional teams, I developed robust data models, ETL processes, and analytics workflows, while also supporting and training end users to maximize the impact of business intelligence tools.",
     icon: React.createElement(CgWorkAlt),
     date: "2022 - 2023",
   },
@@ -62,15 +62,15 @@ export const experiencesData = [
     title: "CougarNet IT helpdesk support",
     location: "Concordia University Chicago, River Forest, IL",
     description:
-      "I'm now a full-stack developer working as a freelancer. My stack includes React, Next.js, TypeScript, Tailwind, Prisma and MongoDB. I'm open to full-time opportunities.",
+      "At CougarNet Help Desk, I provided essential IT support to students, faculty, and staff at Concordia University Chicago, ensuring smooth academic and administrative operations. I delivered expert assistance for hardware and software issues, supported Administrative Information Systems (AIS) and Ellucian Banner for accessing course schedules, accounts, and financial aid, and assisted with Blackboard Learn for course content and assignments. My responsibilities included setting up and maintaining audiovisual resources for classes and events, as well as providing guidance for Concordia Connect, the university's online portal. Through proactive troubleshooting and support, I contributed to a reliable and efficient IT environment.",
     icon: React.createElement(CgWorkAlt),
     date: "2023 - 2024",
   },
   {
-    title: "Technical support speciliest",
+    title: "Technical Support Specialist",
     location: "Concordia University Chicago, River Forest, IL",
     description:
-      "I'm now a full-stack developer working as a freelancer. My stack includes React, Next.js, TypeScript, Tailwind, Prisma and MongoDB. I'm open to full-time opportunities.",
+      "As a Technical Support Specialist and key member of the Fishbowl team at Concordia University Chicago, I ensured efficient deployment and maintenance of computing resources to uphold the university's technological standards. My responsibilities included imaging Dell desktops and laptops with BIOS configurations, setting up iMacs to align with organizational policies, and deploying Windows 11 on lab computers from the server. I led system upgrades by replacing outdated Dell and iMac systems with new models, configuring Windows 11 for Dell desktops, and updating iMacs to macOS Sonoma 14.0. Additionally, I provided technical support and troubleshooting, ensured compliance with security protocols, and collaborated with teams to implement IT solutions, fostering a secure and efficient learning environment.",
     icon: React.createElement(CgWorkAlt),
     date: "2024 - Present",
   },
