@@ -11,9 +11,6 @@ const nextConfig = {
   experimental: {
     serverActions: true,
   },
-  // Add this block for GitHub Pages
-  assetPrefix: process.env.NODE_ENV === 'production' ? '/Raj-Kumar-Manala-Portfolio-Website/' : '',
-  basePath: process.env.NODE_ENV === 'production' ? '/Raj-Kumar-Manala-Portfolio-Website' : '',
 };
 
 module.exports = nextConfig;
