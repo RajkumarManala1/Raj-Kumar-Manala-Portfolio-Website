@@ -29,7 +29,7 @@ export const links = [
   },
   {
     name: "Education",
-    hash: "#educaion",
+    hash: "#education",
   },
   {
     name: "Certifications",
@@ -96,25 +96,35 @@ export const projectsData = [
 ] as const;
 
 export const skillsData = [
-  "HTML",
-  "CSS",
-  "JavaScript",
-  "TypeScript",
-  "React",
-  "Next.js",
-  "Node.js",
-  "Git",
-  "Tailwind",
-  "Prisma",
-  "MongoDB",
-  "Redux",
-  "GraphQL",
-  "Apollo",
-  "Express",
-  "PostgreSQL",
+  "Azure",
+  "AWS",
+  "Databricks",
+  "MS SQL Server",
+  "Power BI",
+  "Tableau",
+  "MS Excel",
+  "VScode",
+  "Anaconda",
+  "Hadoop",
+  "Kafka",
+  "Spark",
+  "Air Flow",
+  "Rest API",
+  "SQL",
+  "NoSQL",
   "Python",
-  "Django",
-  "Framer Motion",
+  "R",
+  "PostgreSQL",
+  "Oracle",
+  "Agile Methodologies",
+  "CI/CD",
+  "ETL",
+  "Data Modelling",
+  "Data Cleansing",
+  "Data Transforming",
+  "Data Visualization",
+  "Git",
+  "Github",
 ] as const;
 
 export const certificationsData = [
@@ -122,18 +132,33 @@ export const certificationsData = [
     title: "Microsoft Power BI Data Analyst Associate",
     issuer: "Microsoft",
     date: "October 2024",
-  
+    imageUrl: "/powerbi-badge.png",
+    link: "https://learn.microsoft.com/api/credentials/share/en-us/ManalaRajKumar-2942/F0AB2D5AA1AB551E?sharingId=478DB6AAB98D7D18", // Add certification link
   },
   {
-    title: "Databricks Lakehouse Fundamentals",
-    issuer: "Databricks",
-    date: "November 2024",
-  
-  },
-  {
-    title: "DP-203: Data Engineering on Microsoft Azure",
+    title: "Microsoft Power BI Data Analyst Associate",
     issuer: "Microsoft",
-    date: "September 2024",
- 
+    date: "October 2024",
+    imageUrl: "/powerbi-badge.png",
+    link: "https://learn.microsoft.com/api/credentials/share/en-us/ManalaRajKumar-2942/F0AB2D5AA1AB551E?sharingId=478DB6AAB98D7D18", // Add certification link
+  },
+] as const;
+
+export const educationData = [
+  {
+    title: "Swami Vivekananda Institute of Technology",
+    location: "Hyderabad, India",
+    description:
+      "Bachelor of Technology in Electronics and Communication Engineering. I immediately found a job as a Data Engineer.",
+    icon: React.createElement(LuGraduationCap),
+    date: "2020",
+  },
+  {
+    title: "Concordia University Chicago",
+    location: "River Forest, IL",
+    description:
+      "Currently pursuing my Master of Science in Computer Science.",
+    icon: React.createElement(LuGraduationCap),
+    date: "2023 - Present",
   },
 ] as const;

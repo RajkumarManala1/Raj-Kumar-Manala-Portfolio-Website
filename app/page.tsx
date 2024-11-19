@@ -6,7 +6,7 @@ import Projects from "@/components/projects";
 import SectionDivider from "@/components/section-divider";
 import Skills from "@/components/skills";
 import CertificationsSection from "@/components/certifications"; // Import your updated certifications section
-
+import Education from "@/components/education";
 export default function Home() {
   return (
     <main className="flex flex-col items-center px-4">
@@ -16,6 +16,7 @@ export default function Home() {
       <Projects />
       <Skills />
       <Experience />
+      <Education/>
       <CertificationsSection />
       <Contact />
     </main>
