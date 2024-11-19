@@ -78,18 +78,18 @@ export const projectsData = [
     githubLink: "https://github.com/RajkumarManala1/Azure-Data-Engineering-Project",
   },
   {
-    title: "rmtDev",
+    title: "Product Sales Analytics",
     description:
-      "Job board for remote developer jobs. I was the front-end developer. It has features like filtering, sorting and pagination.",
-    tags: ["React", "TypeScript", "Next.js", "Tailwind", "Redux"],
+      "An interactive Power BI report leveraging the AdventureWorks database for sales performance through data visualization.",
+    tags: ["Power Query", "Power BI", "M language", "DAX"],
     imageUrl: rmtdevImg,
     githubLink: "https://github.com/RajkumarManala1/Sales-Data-Analytics-Using-Power-BI-",
   },
   {
-    title: "Word Analytics",
+    title: "Supply Chain Analytics",
     description:
       "A public web app for quick analytics on text. It shows word count, character count and social media post limits.",
-    tags: ["React", "Next.js", "SQL", "Tailwind", "Framer"],
+    tags: ["Databricks", "Pyspark", "SQL", "Delta Lake", "TIme Travel", "Multi Hop", "Unity Catalog"],
     imageUrl: wordanalyticsImg,
     githubLink: "https://github.com/RajkumarManala1/Databricks-Supply-Chain-Sales-Data-Analytics",
   },
