@@ -138,7 +138,7 @@ export const skillsData = [
 export const certificationsData = [
   {
     title: "Microsoft Power BI Data Analyst Associate",
-    issuer: "Microsoft PL300-",
+    issuer: "Microsoft PL300",
     date: "November 2024",
     imageUrl: "/powerbi-badge1.png",
     link: "https://learn.microsoft.com/api/credentials/share/en-us/ManalaRajKumar-2942/F0AB2D5AA1AB551E?sharingId=478DB6AAB98D7D18", // Add certification link
@@ -170,6 +170,20 @@ export const certificationsData = [
     date: "January 2024",
     imageUrl: "/azure-fundamentals.png",
     link: "https://learn.microsoft.com/api/credentials/share/en-us/ManalaRajKumar-2942/2368C3C2A762375C?sharingId=478DB6AAB98D7D18", // Add certification link
+  },
+  {
+    title: "Databricks Generative AI",
+    issuer: "Databricks",
+    date: "November 2024",
+    imageUrl: "/databricks-genAI-fundamentals.png",
+    link: "https://credentials.databricks.com/7a489dd9-e22f-4f63-aa1b-ba286fa10456#gs.hulspo#acc.CBMabSQp", // Add certification link
+  },
+  {
+    title: "Databricks Fundamentals",
+    issuer: "Databricks",
+    date: "October 2024",
+    imageUrl: "/databricks-fundamentals.png",
+    link: "https://credentials.databricks.com/07a88f03-c655-4bde-bede-859087a3fa55#acc.bwuseCnP", // Add certification link
   },
 ] as const;
 
