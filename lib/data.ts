@@ -47,7 +47,7 @@ export const experiencesData = [
     location: "Mindtree, Mumbai, India",
     description:
       "I worked as a data engineer for 2 years, I upskilled and promoted as a Senior Data Engineer",
-    icon: React.createElement(LuGraduationCap),
+    icon: React.createElement(CgWorkAlt),
     date: "2020 - 2022",
   },
   {
@@ -63,7 +63,7 @@ export const experiencesData = [
     location: "Concordia University Chicago, River Forest, IL",
     description:
       "I'm now a full-stack developer working as a freelancer. My stack includes React, Next.js, TypeScript, Tailwind, Prisma and MongoDB. I'm open to full-time opportunities.",
-    icon: React.createElement(FaReact),
+    icon: React.createElement(CgWorkAlt),
     date: "2023 - 2024",
   },
   {
@@ -71,7 +71,7 @@ export const experiencesData = [
     location: "Concordia University Chicago, River Forest, IL",
     description:
       "I'm now a full-stack developer working as a freelancer. My stack includes React, Next.js, TypeScript, Tailwind, Prisma and MongoDB. I'm open to full-time opportunities.",
-    icon: React.createElement(FaReact),
+    icon: React.createElement(CgWorkAlt),
     date: "2024 - Present",
   },
 ] as const;
