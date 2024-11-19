@@ -138,17 +138,38 @@ export const skillsData = [
 export const certificationsData = [
   {
     title: "Microsoft Power BI Data Analyst Associate",
-    issuer: "Microsoft",
-    date: "October 2024",
-    imageUrl: "/powerbi-badge.png",
+    issuer: "Microsoft PL300-",
+    date: "November 2024",
+    imageUrl: "/powerbi-badge1.png",
     link: "https://learn.microsoft.com/api/credentials/share/en-us/ManalaRajKumar-2942/F0AB2D5AA1AB551E?sharingId=478DB6AAB98D7D18", // Add certification link
   },
   {
-    title: "Microsoft Power BI Data Analyst Associate",
-    issuer: "Microsoft",
+    title: "Microsoft Azure Data Engineer Associate",
+    issuer: "Microsoft DP300",
     date: "October 2024",
-    imageUrl: "/powerbi-badge.png",
-    link: "https://learn.microsoft.com/api/credentials/share/en-us/ManalaRajKumar-2942/F0AB2D5AA1AB551E?sharingId=478DB6AAB98D7D18", // Add certification link
+    imageUrl: "/data-engineer-associate-badge.png",
+    link: "https://learn.microsoft.com/api/credentials/share/en-us/ManalaRajKumar-2942/BB0A3786D56351D9?sharingId=478DB6AAB98D7D18", // Add certification link
+  },
+  {
+    title: "Microsoft Azure AI Fundamentals",
+    issuer: "Microsoft AI900",
+    date: "June 2024",
+    imageUrl: "/azure-ai-fundamentals.png",
+    link: "https://learn.microsoft.com/api/credentials/share/en-us/ManalaRajKumar-2942/B1F182EC2DBA5E77?sharingId=478DB6AAB98D7D18", // Add certification link
+  },
+  {
+    title: "Microsoft Azure Data Fundamentals",
+    issuer: "Microsoft DP900",
+    date: "June 2024",
+    imageUrl: "/azure-data-fundamentals.png",
+    link: "https://learn.microsoft.com/api/credentials/share/en-us/ManalaRajKumar-2942/6C61A98729595F8D?sharingId=478DB6AAB98D7D18", // Add certification link
+  },
+  {
+    title: "Microsoft Azure Fundamentals",
+    issuer: "Microsoft AZ900",
+    date: "January 2024",
+    imageUrl: "/azure-fundamentals.png",
+    link: "https://learn.microsoft.com/api/credentials/share/en-us/ManalaRajKumar-2942/2368C3C2A762375C?sharingId=478DB6AAB98D7D18", // Add certification link
   },
 ] as const;
 
