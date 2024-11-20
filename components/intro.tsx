@@ -64,7 +64,7 @@ export default function Intro() {
       >
         <span className="font-bold">Hi, I am Raj Kumar,</span> I love challenging myself. I'm a results-oriented{" "}
         <span className="font-bold">Data Engineer & Analyst</span> with{" "}
-        <span className="font-bold">more than 4 years</span> of experience. I can help your team dive Growth through
+        <span className="font-bold">4+ years</span> of experience. I can help your team dive Growth through
         building <span className="italic">DATA Collabration over Competition</span>. { /*My focus is{" "}
         <span className="underline">Cloud Data Engineering and building Business Integelence dashboard</span>. */}
       </motion.h1>
