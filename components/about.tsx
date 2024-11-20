@@ -21,7 +21,7 @@ export default function About() {
   <p className="mb-3">
     I am a <span className="font-medium">Cloud Data Engineer</span>, skilled at
     transforming raw data into actionable insights. With a solid foundation in
-    Computer Science and <span className="font-medium">over 4 years of experience</span> 
+    Computer Science and <span className="font-medium">over 4 years of experience </span> 
     in <span className="font-medium">Big Data and Data Engineering</span> at 
     <span className="font-medium"> LTI Mindtree as a vendor with Microsoft</span>, 
     I am deeply passionate about leveraging cloud technologies to optimize and 
