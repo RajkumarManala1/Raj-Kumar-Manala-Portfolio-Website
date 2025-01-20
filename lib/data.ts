@@ -185,6 +185,13 @@ export const certificationsData = [
     imageUrl: "/databricks-fundamentals.png",
     link: "https://credentials.databricks.com/07a88f03-c655-4bde-bede-859087a3fa55#acc.bwuseCnP", // Add certification link
   },
+  {
+    title: "Azure Databricks Platform Architect",
+    issuer: "Databricks",
+    date: "January 2025",
+    imageUrl: "/Azure Databricks Platform Architect.png",
+    link: "https://credentials.databricks.com/20a7ce3d-9854-4771-a339-54ca97d321c0#acc.4vyJhk65", // Add certification link
+  },
 ] as const;
 
 export const educationData = [
