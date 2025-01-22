@@ -43,37 +43,56 @@ export const links = [
 
 export const experiencesData = [
   {
-    title: "Data Engineer",
-    location: "Mindtree, Mumbai, India",
-    description:
-      "At Mindtree, I specialized in designing and implementing end-to-end data engineering and analytics solutions, including ETL workflows with SSIS and Python, statistical analysis with SQL and Excel, and interactive data visualizations using Power BI and Databricks. Leveraging cloud platforms like Microsoft Azure and Big Data technologies, I built scalable pipelines, optimized real-time data processing with Databricks Streaming, and developed data marts with fact and dimension tables. My role involved collaborating with stakeholders to define requirements, ensuring data quality through rigorous cleansing and transformation, and delivering actionable insights that empowered strategic business decisions.",
-    icon: React.createElement(CgWorkAlt),
-    date: "2020 - 2022",
-  },
-  {
-    title: "Senior Data Engineer",
-    location: "LTIMindtree LTD., Hyderabad, India",
-    description:
-      "At LTIMindtree, I excelled in creating advanced data solutions, developing Power BI dashboards and reports by blending data from multiple sources to deliver critical business insights. I implemented scalable data warehousing solutions with Azure Synapse Analytics and optimized ELT pipelines using Azure Data Factory. Leveraging Power BI and Azure Databricks, I performed complex data modeling and transformations, ensuring high-quality, actionable intelligence. My expertise included developing and optimizing SQL scripts, creating advanced visualizations with DAX, and designing pipelines to move historical and incremental data from Oracle on-premises systems to Azure Data Lake Storage. Collaborating with cross-functional teams, I developed robust data models, ETL processes, and analytics workflows, while also supporting and training end users to maximize the impact of business intelligence tools.",
-    icon: React.createElement(CgWorkAlt),
-    date: "2022 - 2023",
-  },
-  {
-    title: "CougarNet IT helpdesk support",
-    location: "Concordia University Chicago, River Forest, IL",
-    description:
-      "At CougarNet Help Desk, I provided essential IT support to students, faculty, and staff at Concordia University Chicago, ensuring smooth academic and administrative operations. I delivered expert assistance for hardware and software issues, supported Administrative Information Systems (AIS) and Ellucian Banner for accessing course schedules, accounts, and financial aid, and assisted with Blackboard Learn for course content and assignments. My responsibilities included setting up and maintaining audiovisual resources for classes and events, as well as providing guidance for Concordia Connect, the university's online portal. Through proactive troubleshooting and support, I contributed to a reliable and efficient IT environment.",
-    icon: React.createElement(CgWorkAlt),
-    date: "2023 - 2024",
-  },
-  {
+    companyName: "Concordia University Chicago",
     title: "Technical Support Specialist",
-    location: "Concordia University Chicago, River Forest, IL",
-    description:
-      "As a Technical Support Specialist and key member of the Fishbowl team at Concordia University Chicago, I ensured efficient deployment and maintenance of computing resources to uphold the university's technological standards. My responsibilities included imaging Dell desktops and laptops with BIOS configurations, setting up iMacs to align with organizational policies, and deploying Windows 11 on lab computers from the server. I led system upgrades by replacing outdated Dell and iMac systems with new models, configuring Windows 11 for Dell desktops, and updating iMacs to macOS Sonoma 14.0. Additionally, I provided technical support and troubleshooting, ensured compliance with security protocols, and collaborated with teams to implement IT solutions, fostering a secure and efficient learning environment.",
+    location: "Chicago, IL",
+    description: [
+      "Led the imaging, configuration, and deployment of Dell desktops, laptops, and iMacs, ensuring compliance with organizational policies and optimal performance.",
+    "Spearheaded system upgrades by replacing outdated hardware, optimizing device configurations, and implementing security protocols to safeguard sensitive data.",
+    "Streamlined IT operations through data-driven troubleshooting and analysis, enhancing system performance and reliability.",
+    "Collaborated on cross-functional projects to implement innovative technology solutions, improving resource efficiency and user experience."
+  ],
     icon: React.createElement(CgWorkAlt),
-    date: "2024 - Present",
+    date: "July 2024 - Present",
   },
+  {
+    companyName: "Concordia University Chicago",
+    title: "CougarNet IT Helpdesk Specialist",
+    location: "Chicago, IL",
+    description: [
+      "Provided comprehensive IT support to students, faculty, and staff, troubleshooting hardware/software issues and supporting systems like AIS, Ellucian Banner, and Blackboard Learn.",
+    "Managed setup and maintenance of audiovisual equipment for classes and events while guiding users on Concordia Connect, the university's online portal.",
+    "Resolved technical issues proactively to ensure a reliable IT environment and improve the user experience for the university community.",
+    ],
+    icon: React.createElement(CgWorkAlt),
+    date: "Sep 2023 - July 2024",
+  },
+  {
+    companyName: "LTIMindtree LTD.",
+    title: "Data Engineer",
+    location: "Hyderabad, India",
+    description: [
+      "Developed 150+ automated ETL pipelines using PySpark in Azure Databricks and Azure Data Factory, improving efficiency by 70% and cutting costs by 20%.",
+      "Automated deployments with Azure Resource Manager and Terraform, reducing deployment time by 90%, and optimized cloud infrastructure within scope and budget.",
+      "Built scalable data models with SCD Type 1 & 2 and Azure Cosmos DB, improving query response times by 80% and storage efficiency by 20%.",
+      "Supported 100+ developers and 700+ end-users by resolving ETL failures and anomalies, ensuring seamless data workflows and system reliability.",
+      "Enhanced system security and disaster recovery protocols, conducting assessments to ensure data integrity and availability.",
+    ],
+    icon: React.createElement(CgWorkAlt),
+    date: "Sep 2022 - Aug 2023",
+  },
+  {
+    companyName: "Mindtree",
+    title: "Data Engineer Intern",
+    location: "Mumbai, India",
+    description: [
+      "Designed and implemented end-to-end data engineering pipelines, including ETL workflows with SSIS and Python, while ensuring data quality through cleansing and transformation.",
+      "Built scalable data pipelines and data marts on Microsoft Azure and Big Data platforms, optimizing real-time processing with Databricks Streaming.",
+      "Developed actionable insights and dynamic data visualizations using SQL, Power BI, and Databricks, enabling data-driven strategic decisions.",
+    ],
+    icon: React.createElement(CgWorkAlt),
+    date: "April 2020 - Sep 2022",
+  }
 ] as const;
 
 export const projectsData = [
