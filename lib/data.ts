@@ -211,6 +211,13 @@ export const certificationsData = [
     imageUrl: "/azure-databricks-platform-architect.png",
     link: "https://credentials.databricks.com/20a7ce3d-9854-4771-a339-54ca97d321c0#acc.4vyJhk65", // Add certification link
   },
+  {
+    title: "AWS Cloud Practitioner",
+    issuer: "Amazon Web Services",
+    date: "April 2025",
+    imageUrl: "/aws-certified-cloud-practitioner.png",
+    link: "https://www.credly.com/badges/00abe4f6-3f88-4dd1-9fe9-965a526b8e03/public_url", // Add certification link
+  },
 ] as const;
 
 export const educationData = [
