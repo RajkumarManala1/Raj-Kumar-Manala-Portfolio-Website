@@ -47,7 +47,7 @@ export const experiencesData = [
     title: "Technical Support Specialist",
     location: "Chicago, IL",
     description: [
-      "Led the imaging, configuration, and deployment of Dell desktops, laptops, and iMacs, ensuring compliance with organizational policies and optimal performance.",
+      "Led the imaging, configuration, and deployment of Dell desktops, laptops, and iMacs, ensuring in compliance with organizational policies and optimal performance.",
     "Spearheaded system upgrades by replacing outdated hardware, optimizing device configurations, and implementing security protocols to safeguard sensitive data.",
     "Streamlined IT operations through data-driven troubleshooting and analysis, enhancing system performance and reliability.",
     "Collaborated on cross-functional projects to implement innovative technology solutions, improving resource efficiency and user experience."
