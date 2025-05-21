@@ -63,10 +63,9 @@ export default function Intro() {
         initial={{ opacity: 0, y: 100 }}
         animate={{ opacity: 1, y: 0 }}
       >
-        <span className="font-bold">Hi, I am Raj Kumar,</span> I love challenging myself. I'm a results-oriented{" "}
-        <span className="font-bold">Data Engineer & Analyst</span> with{" "}
-        <span className="font-bold">4+ years</span> of experience. I can help your team dive Growth through
-        building <span className="italic">DATA Collabration over Competition</span>. { /*My focus is{" "}
+        <span className="font-bold">Hi, I am Raj Kumar,</span> I love challenging myself. I'm a results-driven{" "}
+        <span className="font-bold">Cloud & Data Engineer</span> with{" "}
+        <span className="font-bold">5+ years</span> of experience. I can help your team in cloud architectures and building robust data solutions by <span className="italic">DATA & CLOUD Collabration over Competition</span>. { /*My focus is{" "}
         <span className="underline">Cloud Data Engineering and building Business Integelence dashboard</span>. */}
       </motion.h1>
 
