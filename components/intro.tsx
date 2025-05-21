@@ -30,15 +30,16 @@ export default function Intro() {
               duration: 0.2,
             }}
           >
-            <Image
-              src="/rajspic.png"
-              alt="Raj portrait"
-              width="300"
-              height="300"
-              quality="95"
-              priority={true}
-              className="h-29 w-29 rounded-full object-cover border-[0.35rem] border-white shadow-xl"
-            />
+<Image
+  src="/rajspic-new.png"
+  alt="Raj portrait"
+  width="280"
+  height="280"
+  quality="95"
+  priority={true}
+  className="h-100 w-80 rounded-full object-cover border-[0.35rem] border-white shadow-xl"
+/>
+
           </motion.div>
 
           <motion.span
