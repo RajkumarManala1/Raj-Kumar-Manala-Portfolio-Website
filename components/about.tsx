@@ -21,14 +21,14 @@ export default function About() {
   <p className="mb-3">
     I am a <span className="font-medium">Cloud & Data Engineer</span>, skilled at
     transforming raw data into actionable insights. With a solid foundation in
-    Computer Science and <span className="font-medium">over 4+ years of experience </span> 
+    Computer Science and <span className="font-medium">over 5+ years of experience </span> 
     in <span className="font-medium">Cloud and Data Engineering</span> at 
     <span className="font-medium"> LTI Mindtree as a vendor with Microsoft</span>, 
     I am deeply passionate about leveraging cloud technologies to optimize and 
     streamline data workflows.
   </p>
   <p className="mb-3">
-    As I approach my <span className="font-medium">graduation in August 2025</span> from 
+    As I approach my <span className="font-medium">graduation in December 2025</span> from 
     the prestigious <span className="font-medium">Concordia University Chicago</span>, 
     I am excited to transition into the next phase of my career in the 
     ever-evolving field of Cloud Data Engineering. My diverse experience has equipped 
@@ -42,7 +42,7 @@ export default function About() {
     a substantial impact, let’s connect!
   </p>
   <p>
-    Outside of work, I enjoy <span className="font-medium">playing cricket, gym</span>, 
+    Outside of work, I enjoy <span className="font-medium">playing soccer, gym</span>, 
     <span className="font-medium">watching movies</span>, and spending time with my friends. 
   </p>
 </motion.section>
