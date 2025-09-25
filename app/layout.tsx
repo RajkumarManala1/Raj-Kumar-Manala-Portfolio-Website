@@ -11,7 +11,7 @@ const inter = Inter({ subsets: ["latin"] });
 
 export const metadata = {
   title: "Raj Kumar Manala | Personal Portfolio",
-  description: "Raj Kumar Manala is a Data Engineer & Analyst with more than 3 years of Expericence",
+  description: "Raj Kumar Manala is a Data Engineer & Analyst with more than 5+ years of Expericence",
 };
 
 export default function RootLayout({

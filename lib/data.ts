@@ -44,8 +44,8 @@ export const links = [
 export const experiencesData = [
   {
     companyName: "Concordia University Chicago",
-    title: "Technical Support Specialist",
-    location: "Chicago, IL",
+    title: "Cloud & Systems Support Engineer",
+    location: "Chicago, IL, USA",
     description: [
       "Led the imaging, configuration, and deployment of Dell desktops, laptops, and iMacs, ensuring in compliance with organizational policies and optimal performance.",
     "Spearheaded system upgrades by replacing outdated hardware, optimizing device configurations, and implementing security protocols to safeguard sensitive data.",
@@ -57,8 +57,8 @@ export const experiencesData = [
   },
   {
     companyName: "Concordia University Chicago",
-    title: "CougarNet IT Helpdesk Specialist",
-    location: "Chicago, IL",
+    title: "Graduate Technical Assistant in IT Systems & Cloud",
+    location: "Chicago, IL, USA",
     description: [
       "Provided comprehensive IT support to students, faculty, and staff, troubleshooting hardware/software issues and supporting systems like AIS, Ellucian Banner, and Blackboard Learn.",
     "Managed setup and maintenance of audiovisual equipment for classes and events while guiding users on Concordia Connect, the university's online portal.",
@@ -170,6 +170,13 @@ export const certificationsData = [
     link: "https://learn.microsoft.com/api/credentials/share/en-us/ManalaRajKumar-2942/BB0A3786D56351D9?sharingId=478DB6AAB98D7D18", // Add certification link
   },
   {
+    title: "AWS Developer Associate",
+    issuer: "Amazon Web Services",
+    date: "July 2025",
+    imageUrl: "/aws-certified-developer-associate.png",
+    link: "https://www.credly.com/badges/de411370-ba28-41e3-a3e0-8a7556e37c27/linked_in_profile",
+  },
+  {
     title: "Microsoft Azure AI Fundamentals",
     issuer: "Microsoft AI900",
     date: "June 2024",
@@ -218,6 +225,7 @@ export const certificationsData = [
     imageUrl: "/aws-certified-cloud-practitioner.png",
     link: "https://www.credly.com/badges/00abe4f6-3f88-4dd1-9fe9-965a526b8e03/public_url", // Add certification link
   },
+
 ] as const;
 
 export const educationData = [
