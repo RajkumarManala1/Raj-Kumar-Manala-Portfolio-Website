@@ -53,7 +53,7 @@ export const experiencesData = [
     "Collaborated on cross-functional projects to implement innovative technology solutions, improving resource efficiency and user experience."
   ],
     icon: React.createElement(CgWorkAlt),
-    date: "July 2024 - Present",
+    date: "July 2024 - Dec 2025",
   },
   {
     companyName: "Concordia University Chicago",
@@ -241,8 +241,8 @@ export const educationData = [
     title: "Concordia University Chicago",
     location: "River Forest, IL",
     description:
-      "Currently pursuing my Master of Science in Computer Science.",
+      "Graduated with Master's Degree, Computer Science.",
     icon: React.createElement(LuGraduationCap),
-    date: "2023 - Present",
+    date: "Aug 2023 - Dec 2025",
   },
 ] as const;

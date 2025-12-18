@@ -31,7 +31,7 @@ export default function Intro() {
             }}
           >
 <Image
-  src="/rajspic-new.png"
+  src="/rajspic-new1.png"
   alt="Raj portrait"
   width="280"
   height="280"
@@ -65,7 +65,7 @@ export default function Intro() {
       >
         <span className="font-bold">Hi, I am Raj Kumar,</span> I love challenging myself. I'm a results-driven{" "}
         <span className="font-bold">Cloud & Data Engineer</span> with{" "}
-        <span className="font-bold">5+ years</span> of experience. I can help your team in cloud architectures and building robust data solutions by <span className="italic">DATA & CLOUD Collabration over Competition</span>. { /*My focus is{" "}
+        <span className="font-bold">6+ years</span> of experience. I can help your team in cloud architectures and building robust data solutions by <span className="italic">DATA & CLOUD Collabration over Competition</span>. { /*My focus is{" "}
         <span className="underline">Cloud Data Engineering and building Business Integelence dashboard</span>. */}
       </motion.h1>
 
@@ -102,7 +102,7 @@ export default function Intro() {
 
         <a
           className="bg-white p-4 text-gray-700 hover:text-gray-950 flex items-center gap-2 rounded-full focus:scale-[1.15] hover:scale-[1.15] active:scale-105 transition cursor-pointer borderBlack dark:bg-white/10 dark:text-white/60"
-          href="https://www.linkedin.com/in/raj-kumar-manala-%E2%98%81%EF%B8%8F-ab1b78134/"
+          href="https://www.linkedin.com/in/raj-kumar-manala-ab1b78134"
           target="_blank"
         >
           <BsLinkedin />
