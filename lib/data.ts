@@ -42,34 +42,35 @@ export const links = [
 ] as const;
 
 export const experiencesData = [
-  {
+ {
     companyName: "Concordia University Chicago",
-    title: "Cloud & Systems Support Engineer",
+    title: "Cloud AI & Data Engineer",
     location: "Chicago, IL, USA",
     description: [
-      "Led the imaging, configuration, and deployment of Dell desktops, laptops, and iMacs, ensuring in compliance with organizational policies and optimal performance.",
-    "Spearheaded system upgrades by replacing outdated hardware, optimizing device configurations, and implementing security protocols to safeguard sensitive data.",
-    "Streamlined IT operations through data-driven troubleshooting and analysis, enhancing system performance and reliability.",
-    "Collaborated on cross-functional projects to implement innovative technology solutions, improving resource efficiency and user experience."
-  ],
+      "Architected a production-grade Service Desk Copilot using Azure AI Foundry and RAG (Retrieval-Augmented Generation), reducing ticket volume by delivering citation-backed answers from internal runbooks.",
+      "Engineered automated document processing workflows using Azure AI and JSON parsers to extract key data fields from unstructured finance documents for downstream reporting.",
+      "Developed comprehensive Power BI dashboards to visualize operational KPIs, utilizing DAX and Power Query to identify trends in system usage and support efficiency.",
+      "Secured cloud infrastructure by implementing Role-Based Access Control (RBAC) and policy governance within Microsoft Entra ID for faculty and staff systems."
+    ],
     icon: React.createElement(CgWorkAlt),
     date: "July 2024 - Dec 2025",
   },
   {
     companyName: "Concordia University Chicago",
-    title: "Graduate Technical Assistant in IT Systems & Cloud",
+    title: "Data Operations & Cloud Analyst", 
     location: "Chicago, IL, USA",
     description: [
-      "Provided comprehensive IT support to students, faculty, and staff, troubleshooting hardware/software issues and supporting systems like AIS, Ellucian Banner, and Blackboard Learn.",
-    "Managed setup and maintenance of audiovisual equipment for classes and events while guiding users on Concordia Connect, the university's online portal.",
-    "Resolved technical issues proactively to ensure a reliable IT environment and improve the user experience for the university community.",
+      "Optimized university IT workflows by analyzing system log data using SQL and Power BI, identifying bottlenecks in the ticketing lifecycle.",
+      "Managed Azure Active Directory (Entra ID) user identities and access policies, ensuring 99.9% uptime for student and faculty portal access.",
+      "Collaborated with cross-functional teams to migrate on-premise data to cloud storage, validating data integrity through SQL scripting and automated quality checks.",
+      "Created automated reporting scripts using PowerShell and Python to track license usage and cloud resource consumption, reducing operational waste."
     ],
     icon: React.createElement(CgWorkAlt),
     date: "Sep 2023 - July 2024",
   },
   {
     companyName: "LTIMindtree LTD.",
-    title: "Data Engineer",
+    title: "Senior Data Engineer",
     location: "Hyderabad, India",
     description: [
       "Developed 150+ automated ETL pipelines using PySpark in Azure Databricks and Azure Data Factory, improving efficiency by 70% and cutting costs by 20%.",
