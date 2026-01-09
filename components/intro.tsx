@@ -58,17 +58,19 @@ export default function Intro() {
         </div>
       </div>
 
-      <motion.h1
-        className="mb-10 mt-4 px-4 text-xl font-small !leading-[1.5] sm:text-2xl"
+  <motion.h1
+        className="mb-10 mt-4 px-4 text-xl font-medium !leading-[1.5] sm:text-2xl"
         initial={{ opacity: 0, y: 100 }}
         animate={{ opacity: 1, y: 0 }}
       >
-        <span className="font-bold">Hi, I am Raj Kumar,</span> I love challenging myself. I'm a results-driven{" "}
-        <span className="font-bold">Cloud & Data Engineer</span> with{" "}
-        <span className="font-bold">6+ years</span> of experience. I can help your team in cloud architectures and building robust data solutions by <span className="italic">DATA & CLOUD Collabration over Competition</span>. { /*My focus is{" "}
-        <span className="underline">Cloud Data Engineering and building Business Integelence dashboard</span>. */}
+        <span className="font-bold">Hi, I am Raj Kumar.</span> I am a{" "}
+        <span className="font-bold">Cloud AI & Data Engineer</span> with{" "}
+        <span className="font-bold">6+ years</span> of experience. I architect{" "}
+        <span className="font-bold">secure cloud foundations</span> and build{" "}
+        <span className="font-bold">intelligent data solutions</span>, bridging
+        the gap between <span className="italic">Robust Data Engineering & Generative AI</span>.
       </motion.h1>
-
+      
       <motion.div
         className="flex flex-col sm:flex-row items-center justify-center gap-2 px-4 text-lg font-medium"
         initial={{ opacity: 0, y: 100 }}
