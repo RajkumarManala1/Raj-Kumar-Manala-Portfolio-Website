@@ -68,28 +68,28 @@ export const experiencesData = [
     icon: React.createElement(CgWorkAlt),
     date: "Sep 2023 - July 2024",
   },
-  {
-    companyName: "LTIMindtree LTD.",
-    title: "Senior Data Engineer",
+{
+    companyName: "LTIMindtree LTD. (Microsoft Vendor)",
+    title: "Senior Data & Cloud Engineer",
     location: "Hyderabad, India",
     description: [
-      "Developed 150+ automated ETL pipelines using PySpark in Azure Databricks and Azure Data Factory, improving efficiency by 70% and cutting costs by 20%.",
-      "Automated deployments with Azure Resource Manager and Terraform, reducing deployment time by 90%, and optimized cloud infrastructure within scope and budget.",
-      "Built scalable data models with SCD Type 1 & 2 and Azure Cosmos DB, improving query response times by 80% and storage efficiency by 20%.",
-      "Supported 100+ developers and 700+ end-users by resolving ETL failures and anomalies, ensuring seamless data workflows and system reliability.",
-      "Enhanced system security and disaster recovery protocols, conducting assessments to ensure data integrity and availability.",
+      "Architected a scalable 'Medallion' Data Lakehouse using Azure Databricks (PySpark) and Delta Lake, serving as the trusted data foundation for downstream AI/ML models and Analytics.",
+      "Implemented 'Infrastructure as Code' (IaC) using Terraform and Azure Resource Manager to automate cloud deployments, reducing environment provisioning time by 90%.",
+      "Designed executive-level Power BI dashboards connected to Azure Cosmos DB and SQL, utilizing complex DAX measures to visualize real-time streaming data for leadership.",
+      "Enforced Data Governance and Security protocols by implementing Row-Level Security (RLS) and automated data quality checks, ensuring compliance for enterprise-grade reporting."
     ],
     icon: React.createElement(CgWorkAlt),
     date: "Sep 2022 - Aug 2023",
   },
   {
-    companyName: "Mindtree",
-    title: "Data Engineer Intern",
+    companyName: "Mindtree (Microsoft Vendor)",
+    title: "Data Engineer",
     location: "Mumbai, India",
     description: [
-      "Designed and implemented end-to-end data engineering pipelines, including ETL workflows with SSIS and Python, while ensuring data quality through cleansing and transformation.",
-      "Built scalable data pipelines and data marts on Microsoft Azure and Big Data platforms, optimizing real-time processing with Databricks Streaming.",
-      "Developed actionable insights and dynamic data visualizations using SQL, Power BI, and Databricks, enabling data-driven strategic decisions.",
+      "Engineered robust ETL pipelines using Azure Data Factory (ADF) and SSIS to migrate on-premise legacy data to the cloud, ensuring zero data loss during transformation.",
+      "Performed advanced data profiling and cleansing using SQL and Python, resolving data quality issues to support accurate Business Intelligence reporting.",
+      "Developed interactive data visualizations in Power BI, translating complex raw datasets into clear, actionable insights for non-technical stakeholders.",
+      "Optimized SQL queries and stored procedures for performance, reducing report load times by 40% and enabling faster decision-making."
     ],
     icon: React.createElement(CgWorkAlt),
     date: "April 2020 - Sep 2022",
