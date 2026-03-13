@@ -42,7 +42,21 @@ export const links = [
 ] as const;
 
 export const experiencesData = [
- {
+  {
+    companyName: "Discover Financial Services",
+    title: "Senior Cloud Data Engineer",
+    location: "Chicago, IL, USA",
+    description: [
+      "Led modernization of enterprise analytics platform by implementing a Microsoft Fabric Lakehouse with Medallion architecture, unifying siloed financial datasets into a governed single source of truth for BI and ML.",
+      "Designed fault-tolerant, metadata-driven ingestion pipelines using Azure Data Factory and Fabric Data Pipelines with incremental loads and watermarking, maintaining 99.7%+ SLA across 15+ source systems.",
+      "Developed PySpark and Spark SQL transformations in Azure Databricks and Fabric Notebooks, reducing processing time by ~40% through Delta Lake optimization, Z-order indexing, and partition pruning.",
+      "Delivered a production-grade RAG solution using Azure OpenAI (GPT-4) + Azure AI Search, reducing manual document lookup effort by ~60% for compliance and support teams.",
+      "Built Power BI dashboards on Fabric Warehouse semantic models to monitor dispute volumes, fraud detection rates, and credit portfolio performance with row-level security and drill-through capabilities.",
+    ],
+    icon: React.createElement(CgWorkAlt),
+    date: "Feb 2025 - Present",
+  },
+  {
     companyName: "Concordia University Chicago",
     title: "Cloud AI & Data Engineer",
     location: "Chicago, IL, USA",
@@ -50,33 +64,34 @@ export const experiencesData = [
       "Architected a production-grade Service Desk Copilot using Azure AI Foundry and RAG (Retrieval-Augmented Generation), reducing ticket volume by delivering citation-backed answers from internal runbooks.",
       "Engineered automated document processing workflows using Azure AI and JSON parsers to extract key data fields from unstructured finance documents for downstream reporting.",
       "Developed comprehensive Power BI dashboards to visualize operational KPIs, utilizing DAX and Power Query to identify trends in system usage and support efficiency.",
-      "Secured cloud infrastructure by implementing Role-Based Access Control (RBAC) and policy governance within Microsoft Entra ID for faculty and staff systems."
+      "Secured cloud infrastructure by implementing Role-Based Access Control (RBAC) and policy governance within Microsoft Entra ID for faculty and staff systems.",
     ],
     icon: React.createElement(CgWorkAlt),
     date: "July 2024 - Dec 2025",
   },
   {
     companyName: "Concordia University Chicago",
-    title: "Data Operations & Cloud Analyst", 
+    title: "Data Operations & Cloud Analyst",
     location: "Chicago, IL, USA",
     description: [
       "Optimized university IT workflows by analyzing system log data using SQL and Power BI, identifying bottlenecks in the ticketing lifecycle.",
       "Managed Azure Active Directory (Entra ID) user identities and access policies, ensuring 99.9% uptime for student and faculty portal access.",
       "Collaborated with cross-functional teams to migrate on-premise data to cloud storage, validating data integrity through SQL scripting and automated quality checks.",
-      "Created automated reporting scripts using PowerShell and Python to track license usage and cloud resource consumption, reducing operational waste."
+      "Created automated reporting scripts using PowerShell and Python to track license usage and cloud resource consumption, reducing operational waste.",
     ],
     icon: React.createElement(CgWorkAlt),
     date: "Sep 2023 - July 2024",
   },
-{
+  {
     companyName: "LTIMindtree LTD. (Microsoft Vendor)",
-    title: "Senior Data & Cloud Engineer",
+    title: "Senior Data Engineer",
     location: "Hyderabad, India",
     description: [
-      "Architected a scalable 'Medallion' Data Lakehouse using Azure Databricks (PySpark) and Delta Lake, serving as the trusted data foundation for downstream AI/ML models and Analytics.",
-      "Implemented 'Infrastructure as Code' (IaC) using Terraform and Azure Resource Manager to automate cloud deployments, reducing environment provisioning time by 90%.",
-      "Designed executive-level Power BI dashboards connected to Azure Cosmos DB and SQL, utilizing complex DAX measures to visualize real-time streaming data for leadership.",
-      "Enforced Data Governance and Security protocols by implementing Row-Level Security (RLS) and automated data quality checks, ensuring compliance for enterprise-grade reporting."
+      "Architected metadata-driven ingestion frameworks using Azure Data Factory, orchestrating data movement across ADLS Gen2, Synapse Analytics, and Snowflake for insurance and Xbox sales domains.",
+      "Designed dimensional data models (star/snowflake schemas) with SCD Type 1/2 in Azure Synapse and Snowflake, enabling tracking of claims efficiency, sales velocity, and regional revenue.",
+      "Developed event-driven processing solutions using Azure Event Hubs and Stream Analytics, reducing reporting latency from hours to under 15 minutes for time-sensitive business decisions.",
+      "Implemented comprehensive data quality frameworks including source-to-target validation, schema conformance checks, and duplicate detection, reducing data-related production incidents by ~40%.",
+      "Managed platform security using Azure Key Vault, implemented row-level security in Synapse Analytics, and configured RBAC across ADLS Gen2 to comply with enterprise governance standards.",
     ],
     icon: React.createElement(CgWorkAlt),
     date: "Sep 2022 - Aug 2023",
@@ -86,14 +101,29 @@ export const experiencesData = [
     title: "Data Engineer",
     location: "Mumbai, India",
     description: [
-      "Engineered robust ETL pipelines using Azure Data Factory (ADF) and SSIS to migrate on-premise legacy data to the cloud, ensuring zero data loss during transformation.",
-      "Performed advanced data profiling and cleansing using SQL and Python, resolving data quality issues to support accurate Business Intelligence reporting.",
-      "Developed interactive data visualizations in Power BI, translating complex raw datasets into clear, actionable insights for non-technical stakeholders.",
-      "Optimized SQL queries and stored procedures for performance, reducing report load times by 40% and enabling faster decision-making."
+      "Engineered 30+ scalable ETL/ELT pipelines using Azure Data Factory, processing ~5+ TB of transactional data daily with a 99.5% pipeline success rate across insurance and Xbox sales domains.",
+      "Built PySpark and Spark SQL transformations on Azure HDInsight and Synapse Spark pools, improving data processing throughput by ~35% through partition pruning, broadcast joins, and caching.",
+      "Built enterprise-grade data ingestion from SQL Server, MySQL, APIs, JSON, and Kafka into Bronze/Silver/Gold zones within ADLS Gen2 following medallion architecture with Delta Lake.",
+      "Created business-facing datasets and reporting feeds consumed by Power BI and Tableau dashboards, collaborating with analysts to translate business requirements into technical designs.",
+      "Managed CI/CD deployment practices using Azure DevOps and Jenkins across dev, QA, staging, and production environments with ARM template parameterization and release gate approvals.",
     ],
     icon: React.createElement(CgWorkAlt),
     date: "April 2020 - Sep 2022",
-  }
+  },
+  {
+    companyName: "Bosch",
+    title: "Data Engineer Intern",
+    location: "Bangalore, India",
+    description: [
+      "Engineered end-to-end IoT telemetry ingestion pipelines using Kafka producers/consumers in Python and Scala on AWS, enabling real-time streaming of high-frequency industrial sensor data.",
+      "Developed Spark Streaming applications on AWS EMR to process raw telemetry events, persisting to HBase for operational lookups and S3 data lake zones for batch analytics.",
+      "Implemented AWS Kinesis with Lambda functions for real-time anomaly detection, triggering SNS alerts when sensor thresholds were breached — reducing incident response time to near real-time.",
+      "Built PySpark batch jobs on EMR to process terabytes of historical IoT sensor datasets, performing time-series aggregations to support predictive maintenance analytics.",
+      "Designed dimensional data models in AWS Redshift for machine performance metrics, enabling stakeholders to track equipment efficiency and downtime patterns through BI dashboards.",
+    ],
+    icon: React.createElement(CgWorkAlt),
+    date: "May 2018 - March 2020",
+  },
 ] as const;
 
 export const projectsData = [
