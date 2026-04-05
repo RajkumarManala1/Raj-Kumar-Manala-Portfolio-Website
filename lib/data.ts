@@ -5,6 +5,9 @@ import { LuGraduationCap } from "react-icons/lu";
 import corpcommentImg from "@/public/corpcomment.png";
 import rmtdevImg from "@/public/rmtdev.png";
 import wordanalyticsImg from "@/public/wordanalytics.png";
+import disputeaiImg from "@/public/disputeai.png";
+import creditfraudImg from "@/public/creditfraud.png";
+import earthquakeImg from "@/public/earthquake.png";
 
 export const links = [
   {
@@ -128,6 +131,30 @@ export const experiencesData = [
 
 export const projectsData = [
   {
+    title: "DisputeAI",
+    description:
+      "An intelligent financial dispute resolution system using Agentic AI and RAG on Azure to automate case analysis and generate citation-backed recommendations.",
+    tags: ["Azure AI Foundry", "Azure OpenAI", "RAG", "Azure AI Search", "LangChain", "Agentic AI", "Python"],
+    imageUrl: disputeaiImg,
+    githubLink: "https://github.com/RajkumarManala1/DisputeAI-Financial-Dispute-Resolution-with-RAG-and-Agentic-AI-on-Azure",
+  },
+  {
+    title: "Credit Fraud Detection",
+    description:
+      "A production-grade credit card fraud detection ML pipeline with PySpark feature engineering, model training, and a Power BI monitoring dashboard.",
+    tags: ["Azure Databricks", "PySpark", "Scikit-learn", "XGBoost", "Azure ML", "MLflow", "Power BI"],
+    imageUrl: creditfraudImg,
+    githubLink: "https://github.com/RajkumarManala1/Credit-Fraud-Detection",
+  },
+  {
+    title: "Earthquake Analysis",
+    description:
+      "A data engineering platform analyzing global earthquake data using Microsoft Fabric Lakehouse and Azure Databricks with interactive Power BI dashboards.",
+    tags: ["Microsoft Fabric", "Azure Databricks", "Delta Lake", "PySpark", "Python", "Pandas", "Power BI"],
+    imageUrl: earthquakeImg,
+    githubLink: "https://github.com/RajkumarManala1/Earthquake-Analysis-Project",
+  },
+  {
     title: "DITA",
     description:
       "Data is ingested from an on-premises, transformed using data engineering tools, and analyzed through visualization tools.",
@@ -136,53 +163,65 @@ export const projectsData = [
     githubLink: "https://github.com/RajkumarManala1/Azure-Data-Engineering-Project",
   },
   {
+    title: "Supply Chain Analytics",
+    description:
+      "An end-to-end analytics pipeline on Azure Databricks processing supply chain and sales data using Medallion architecture with Delta Lake.",
+    tags: ["Databricks", "PySpark", "SQL", "Delta Lake", "Time Travel", "Multi Hop", "Unity Catalog"],
+    imageUrl: wordanalyticsImg,
+    githubLink: "https://github.com/RajkumarManala1/Databricks-Supply-Chain-Sales-Data-Analytics",
+  },
+  {
     title: "Product Sales Analytics",
     description:
       "An interactive Power BI report leveraging the AdventureWorks database for sales performance through data visualization.",
-    tags: ["Power Query", "Power BI", "M language", "DAX"],
+    tags: ["Power Query", "Power BI", "M Language", "DAX"],
     imageUrl: rmtdevImg,
     githubLink: "https://github.com/RajkumarManala1/Sales-Data-Analytics-Using-Power-BI-",
-  },
-  {
-    title: "Supply Chain Analytics",
-    description:
-      "A public web app for quick analytics on text. It shows word count, character count and social media post limits.",
-    tags: ["Databricks", "Pyspark", "SQL", "Delta Lake", "TIme Travel", "Multi Hop", "Unity Catalog"],
-    imageUrl: wordanalyticsImg,
-    githubLink: "https://github.com/RajkumarManala1/Databricks-Supply-Chain-Sales-Data-Analytics",
   },
 ] as const;
 
 export const skillsData = [
   "Azure",
   "AWS",
+  "Microsoft Fabric",
+  "Azure Data Factory",
+  "Azure OpenAI",
+  "Azure AI Foundry",
+  "Azure AI Search",
+  "Azure Synapse Analytics",
+  "Azure DevOps",
   "Databricks",
-  "MS SQL Server",
-  "Power BI",
-  "Tableau",
-  "MS Excel",
-  "VScode",
-  "Anaconda",
-  "Hadoop",
+  "Snowflake",
+  "Delta Lake",
   "Kafka",
   "Spark",
-  "Air Flow",
-  "Rest API",
+  "PySpark",
+  "Airflow",
+  "MLflow",
+  "Scikit-learn",
+  "XGBoost",
+  "LangChain",
+  "Power BI",
+  "DAX",
+  "Power Query",
+  "Tableau",
+  "MS SQL Server",
+  "PostgreSQL",
+  "Oracle",
   "SQL",
   "NoSQL",
   "Python",
+  "Scala",
   "R",
-  "PostgreSQL",
-  "Oracle",
-  "Agile Methodologies",
-  "CI/CD",
+  "Rest API",
   "ETL",
   "Data Modelling",
-  "Data Cleansing",
-  "Data Transforming",
   "Data Visualization",
+  "CI/CD",
   "Git",
   "Github",
+  "Agile Methodologies",
+  "Hadoop",
 ] as const;
 
 export const certificationsData = [
