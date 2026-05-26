@@ -208,35 +208,56 @@ export const projectsData = [
 ] as const;
 
 export const skillsData = [
+  // Cloud Platforms
   "Azure",
   "AWS",
+  "Microsoft Fabric",
+  "Snowflake",
   "Databricks",
+  // Data Engineering
+  "Azure Data Factory",
+  "Azure Synapse Analytics",
+  "Delta Lake",
+  "Medallion Architecture",
+  "ETL",
+  "Data Warehousing",
+  "Data Modelling",
+  // Big Data & Processing
+  "Spark",
+  "PySpark",
+  "Spark SQL",
+  "Kafka",
+  "Hadoop",
+  "Hive",
+  // AI & ML
+  "Azure OpenAI / GenAI",
+  "Azure AI Search",
+  "MLflow",
+  // Programming
+  "Python",
+  "SQL",
+  "T-SQL",
+  "Scala",
+  // Databases
   "MS SQL Server",
+  "PostgreSQL",
+  // Reporting & Analytics
   "Power BI",
   "Tableau",
-  "MS Excel",
-  "VScode",
-  "Anaconda",
-  "Hadoop",
-  "Kafka",
-  "Spark",
-  "Air Flow",
-  "Rest API",
-  "SQL",
-  "NoSQL",
-  "Python",
-  "R",
-  "PostgreSQL",
-  "Oracle",
-  "Agile Methodologies",
-  "CI/CD",
-  "ETL",
-  "Data Modelling",
-  "Data Cleansing",
-  "Data Transforming",
   "Data Visualization",
+  // DevOps & Tools
+  "Docker",
+  "Kubernetes",
+  "Terraform",
+  "Azure DevOps",
+  "GitHub Actions",
+  "Jenkins",
+  "CI/CD",
   "Git",
   "Github",
+  // Methodologies
+  "Agile Methodologies",
+  "JIRA",
 ] as const;
 
 export const certificationsData = [
