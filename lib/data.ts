@@ -8,6 +8,9 @@ import wordanalyticsImg from "@/public/wordanalytics.png";
 import disputeaiImg from "@/public/disputeai.png";
 import creditfraudImg from "@/public/creditfraud.png";
 import earthquakeImg from "@/public/earthquake.png";
+import snowflakeaiImg from "@/public/snowflakeai.png";
+import awsvpcImg from "@/public/awsvpc.png";
+import bicyclesalesImg from "@/public/bicyclesales.png";
 
 export const links = [
   {
@@ -139,6 +142,14 @@ export const projectsData = [
     githubLink: "https://github.com/RajkumarManala1/DisputeAI-Financial-Dispute-Resolution-with-RAG-and-Agentic-AI-on-Azure",
   },
   {
+    title: "Snowflake AI Sales Insights",
+    description:
+      "An AI-powered sales analytics platform using Snowflake Cortex Analyst with a natural-language Streamlit chat interface for querying live sales data.",
+    tags: ["Snowflake", "Cortex Analyst", "Streamlit", "Snowpark", "Python", "SQL", "Data Science"],
+    imageUrl: snowflakeaiImg,
+    githubLink: "https://github.com/RajkumarManala1/snowflake-ai-sales-data-insights",
+  },
+  {
     title: "Credit Fraud Detection",
     description:
       "A production-grade credit card fraud detection ML pipeline with PySpark feature engineering, model training, and a Power BI monitoring dashboard.",
@@ -147,12 +158,28 @@ export const projectsData = [
     githubLink: "https://github.com/RajkumarManala1/Credit-Fraud-Detection",
   },
   {
+    title: "Bicycle Sales Analytics",
+    description:
+      "An end-to-end data pipeline with Snowflake data warehousing and Sigma Computing dashboards, following Medallion architecture for bicycle sales and accessories data.",
+    tags: ["Snowflake", "SQL Server", "Docker", "Sigma Computing", "Star Schema", "Medallion Architecture"],
+    imageUrl: bicyclesalesImg,
+    githubLink: "https://github.com/RajkumarManala1/Bicycle-Sales-Analytics",
+  },
+  {
     title: "Earthquake Analysis",
     description:
       "A data engineering platform analyzing global earthquake data using Microsoft Fabric Lakehouse and Azure Databricks with interactive Power BI dashboards.",
     tags: ["Microsoft Fabric", "Azure Databricks", "Delta Lake", "PySpark", "Python", "Pandas", "Power BI"],
     imageUrl: earthquakeImg,
     githubLink: "https://github.com/RajkumarManala1/Earthquake-Analysis-Project",
+  },
+  {
+    title: "AWS VPC & EC2 Infrastructure",
+    description:
+      "A hands-on AWS networking project demonstrating custom VPC setup with public/private subnets, NAT Gateway, Bastion Host, and secure EC2 access patterns.",
+    tags: ["AWS VPC", "EC2", "NAT Gateway", "Bastion Host", "Security Groups", "Route Tables"],
+    imageUrl: awsvpcImg,
+    githubLink: "https://github.com/RajkumarManala1/aws-vpc-ec2-nat-demo",
   },
   {
     title: "DITA",
