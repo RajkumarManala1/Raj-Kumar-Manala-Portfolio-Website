@@ -81,7 +81,7 @@ export default function Intro() {
       </motion.h1>
       
       <motion.div
-        className="flex flex-col sm:flex-row items-center justify-center gap-2 px-4 text-lg font-medium"
+        className="flex flex-col sm:flex-row items-center justify-center gap-3 px-4 text-lg font-medium"
         initial={{ opacity: 0, y: 100 }}
         animate={{ opacity: 1, y: 0 }}
         transition={{
@@ -90,41 +90,48 @@ export default function Intro() {
       >
         <Link
           href="#contact"
-          className="group bg-gray-900 text-white px-7 py-3 flex items-center gap-2 rounded-full outline-none focus:scale-110 hover:scale-110 hover:bg-gray-950 active:scale-105 transition"
+          className="group relative px-8 py-3 flex items-center gap-2 rounded-full outline-none focus:scale-110 hover:scale-110 active:scale-105 transition-all duration-300 text-white bg-gradient-to-r from-indigo-600 to-purple-600 hover:from-indigo-500 hover:to-purple-500 shadow-lg shadow-indigo-500/30 hover:shadow-xl hover:shadow-indigo-500/40"
           onClick={() => {
             setActiveSection("Contact");
             setTimeOfLastClick(Date.now());
           }}
         >
           Get in Touch{" "}
-          <BsArrowRight className="opacity-70 group-hover:translate-x-1 transition" />
+          <BsArrowRight className="opacity-80 group-hover:translate-x-1.5 transition-transform duration-300" />
         </Link>
 
-  <a
-  className="group bg-white px-7 py-3 flex items-center gap-2 rounded-full outline-none focus:scale-110 hover:scale-110 active:scale-105 transition cursor-pointer borderBlack dark:bg-white/10"
-  href="/Rajkumar_Manala_Resume.pdf"
-  target="_blank"
-  rel="noopener noreferrer"
->
-  Resume {" "}
-  <HiDownload className="opacity-60 group-hover:translate-y-1 transition" />
-</a>
-
-
         <a
-          className="bg-white p-4 text-gray-700 hover:text-gray-950 flex items-center gap-2 rounded-full focus:scale-[1.15] hover:scale-[1.15] active:scale-105 transition cursor-pointer borderBlack dark:bg-white/10 dark:text-white/60"
-          href="https://www.linkedin.com/in/raj-kumar-manala-ab1b78134"
+          className="group px-8 py-3 flex items-center gap-2 rounded-full outline-none focus:scale-110 hover:scale-110 active:scale-105 transition-all duration-300 cursor-pointer
+            bg-white text-gray-900 border-2 border-gray-300 hover:border-gray-900 shadow-sm hover:shadow-md
+            dark:bg-transparent dark:text-white dark:border-white/30 dark:hover:border-white dark:hover:bg-white/10"
+          href="/Rajkumar_Manala_Resume.pdf"
           target="_blank"
+          rel="noopener noreferrer"
         >
-          <BsLinkedin />
+          Resume{" "}
+          <HiDownload className="opacity-70 group-hover:translate-y-0.5 transition-transform duration-300" />
         </a>
 
         <a
-          className="bg-white p-4 text-gray-700 flex items-center gap-2 text-[1.35rem] rounded-full focus:scale-[1.15] hover:scale-[1.15] hover:text-gray-950 active:scale-105 transition cursor-pointer borderBlack dark:bg-white/10 dark:text-white/60"
+          className="px-6 py-3 flex items-center gap-0 text-lg rounded-full focus:scale-110 hover:scale-110 active:scale-105 transition-all duration-300 cursor-pointer font-bold
+            bg-white text-[#0A66C2] border-2 border-gray-300 hover:border-[#0A66C2] shadow-sm hover:shadow-lg hover:shadow-[#0A66C2]/20
+            dark:bg-transparent dark:border-white/30 dark:hover:border-[#0A66C2]"
+          href="https://www.linkedin.com/in/raj-kumar-manala-ab1b78134"
+          target="_blank"
+        >
+          Linked
+          <span className="bg-[#0A66C2] text-white px-1 py-0.5 rounded text-[0.85em] ml-[1px]">in</span>
+        </a>
+
+        <a
+          className="px-6 py-3 flex items-center gap-2 text-lg rounded-full focus:scale-110 hover:scale-110 active:scale-105 transition-all duration-300 cursor-pointer font-semibold
+            bg-gray-900 text-white shadow-md hover:shadow-lg hover:bg-black
+            dark:bg-white dark:text-gray-900 dark:hover:bg-white/90"
           href="https://github.com/RajkumarManala1"
           target="_blank"
         >
-          <FaGithubSquare />
+          <FaGithubSquare className="text-xl" />
+          GitHub
         </a>
       </motion.div>
     </section>
