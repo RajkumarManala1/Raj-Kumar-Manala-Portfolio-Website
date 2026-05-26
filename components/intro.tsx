@@ -43,14 +43,23 @@ export default function Intro() {
           </motion.div>
 
           <motion.span
-            className="absolute bottom-0 right-0 text-5xl"
+            className="absolute bottom-0 right-0 text-5xl origin-[70%_70%]"
             initial={{ opacity: 0, scale: 0 }}
-            animate={{ opacity: 1, scale: 1 }}
+            animate={{
+              opacity: 1,
+              scale: 1,
+              rotate: [0, 20, -10, 20, -5, 10, 0],
+            }}
             transition={{
-              type: "spring",
-              stiffness: 125,
-              delay: 0.1,
-              duration: 0.7,
+              opacity: { duration: 0.3, delay: 0.1 },
+              scale: { type: "spring", stiffness: 125, delay: 0.1, duration: 0.7 },
+              rotate: {
+                duration: 1.2,
+                delay: 0.8,
+                repeat: Infinity,
+                repeatDelay: 2,
+                ease: "easeInOut",
+              },
             }}
           >
             👋
