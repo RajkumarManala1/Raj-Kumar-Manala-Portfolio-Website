@@ -329,7 +329,14 @@ export const certificationsData = [
     issuer: "Amazon Web Services",
     date: "April 2025",
     imageUrl: "/aws-certified-cloud-practitioner.png",
-    link: "https://www.credly.com/badges/00abe4f6-3f88-4dd1-9fe9-965a526b8e03/public_url", // Add certification link
+    link: "https://www.credly.com/badges/00abe4f6-3f88-4dd1-9fe9-965a526b8e03/public_url",
+  },
+  {
+    title: "Databricks AI Agent Fundamentals",
+    issuer: "Databricks",
+    date: "May 2026",
+    imageUrl: "/databricks-ai-agent-fundamentals.png",
+    link: "https://credentials.databricks.com/9d792f5c-06dd-433b-83a6-69ed10d48914#acc.WwM7nmRk",
   },
 
 ] as const;
