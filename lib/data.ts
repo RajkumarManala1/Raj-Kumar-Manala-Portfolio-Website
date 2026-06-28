@@ -49,22 +49,22 @@ export const links = [
 
 export const experiencesData = [
   {
-    companyName: "Discover Financial Services",
-    title: "Senior Cloud Data Engineer",
+    companyName: "Hexaware Technologies",
+    title: "Data and AI",
     location: "Chicago, IL, USA",
     description: [
-      "Led modernization of enterprise analytics platform by implementing a Microsoft Fabric Lakehouse with Medallion architecture, unifying siloed financial datasets into a governed single source of truth for BI and ML.",
-      "Designed fault-tolerant, metadata-driven ingestion pipelines using Azure Data Factory and Fabric Data Pipelines with incremental loads and watermarking, maintaining 99.7%+ SLA across 15+ source systems.",
-      "Developed PySpark and Spark SQL transformations in Azure Databricks and Fabric Notebooks, reducing processing time by ~40% through Delta Lake optimization, Z-order indexing, and partition pruning.",
-      "Delivered a production-grade RAG solution using Azure OpenAI (GPT-4) + Azure AI Search, reducing manual document lookup effort by ~60% for compliance and support teams.",
-      "Built Power BI dashboards on Fabric Warehouse semantic models to monitor dispute volumes, fraud detection rates, and credit portfolio performance with row-level security and drill-through capabilities.",
+      "Architected scalable data pipelines in Snowflake to ingest, transform, and govern financial and insurance datasets across Bronze/Silver/Gold layers using Medallion architecture, enabling unified analytics for underwriting, claims processing, and policy management.",
+      "Built AI-powered data cloud solutions using Snowflake Cortex AI, leveraging LLM functions (Cortex Complete, Summarize, Sentiment) and ML models to automate claims classification, detect fraud patterns, and summarize policy documents for insurance operations.",
+      "Designed and deployed interactive Sigma Computing dashboards connected to Snowflake's live data cloud, delivering real-time insights on premium revenue, loss ratios, claims processing SLAs, and portfolio risk metrics to business stakeholders.",
+      "Engineered Snowpark-based data transformations in Python and SQL to process high-volume transactional data from insurance and financial systems, implementing incremental loading strategies and data quality validations for regulatory compliance reporting.",
+      "Developed Snowflake Cortex Search and RAG-based solutions to enable natural language querying over internal policy documents and compliance guidelines, reducing manual research effort by ~50% for underwriting and risk assessment teams.",
     ],
     icon: React.createElement(CgWorkAlt),
-    date: "Feb 2025 - Present",
+    date: "May 2026 - Present",
   },
   {
     companyName: "Concordia University Chicago",
-    title: "Cloud AI & Data Engineer",
+    title: "Graduate Data Research Assistant",
     location: "Chicago, IL, USA",
     description: [
       "Architected a production-grade Service Desk Copilot using Azure AI Foundry and RAG (Retrieval-Augmented Generation), reducing ticket volume by delivering citation-backed answers from internal runbooks.",
@@ -73,11 +73,11 @@ export const experiencesData = [
       "Secured cloud infrastructure by implementing Role-Based Access Control (RBAC) and policy governance within Microsoft Entra ID for faculty and staff systems.",
     ],
     icon: React.createElement(CgWorkAlt),
-    date: "July 2024 - Dec 2025",
+    date: "Jul 2024 - Dec 2025",
   },
   {
     companyName: "Concordia University Chicago",
-    title: "Data Operations & Cloud Analyst",
+    title: "Graduate Student Assistant",
     location: "Chicago, IL, USA",
     description: [
       "Optimized university IT workflows by analyzing system log data using SQL and Power BI, identifying bottlenecks in the ticketing lifecycle.",
@@ -86,7 +86,7 @@ export const experiencesData = [
       "Created automated reporting scripts using PowerShell and Python to track license usage and cloud resource consumption, reducing operational waste.",
     ],
     icon: React.createElement(CgWorkAlt),
-    date: "Sep 2023 - July 2024",
+    date: "Sep 2023 - Jul 2024",
   },
   {
     companyName: "LTIMindtree LTD. (Microsoft Vendor)",
