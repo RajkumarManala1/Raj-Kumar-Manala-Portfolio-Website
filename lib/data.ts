@@ -283,6 +283,13 @@ export const certificationsData = [
     link: "https://www.credly.com/badges/de411370-ba28-41e3-a3e0-8a7556e37c27/linked_in_profile",
   },
   {
+    title: "SnowPro Core Certification",
+    issuer: "Snowflake",
+    date: "June 2026",
+    imageUrl: "/Snow%20Pro%20Core%20Certification.png",
+    link: "https://achieve.snowflake.com/18d782d8-6d63-4216-aafb-84a2507c6e1f#acc.v2I83jLx",
+  },
+  {
     title: "Microsoft Azure AI Fundamentals",
     issuer: "Microsoft AI900",
     date: "June 2024",
