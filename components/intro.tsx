@@ -74,7 +74,7 @@ export default function Intro() {
       >
         <span className="font-bold">Hi, I am Raj Kumar.</span> I am a{" "}
         <span className="font-bold">Cloud AI & Data Engineer</span> with{" "}
-        <span className="font-bold">7+ years</span> of experience. I architect{" "}
+        <span className="font-bold">6+ years</span> of experience. I architect{" "}
         <span className="font-bold">secure cloud foundations</span> and build{" "}
         <span className="font-bold">intelligent data solutions</span>, bridging
         the gap between <span className="italic">Robust Data Engineering & Generative AI</span>.
